@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Navigation bar - Logo and Images */
+#logo {
+    margin: 20px 20px;
+    margin-left: 100px;
+}
+
+#logo img{
+    height: 40px;
+    width: 150px;
+}
+
+#LanguageSelect {
+    font: 0.9em sans-serif;
+    margin-right: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ef0808;
+    color: #fff;
+    padding: 8px  30px;
+    margin-right: 100px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 20px 50px;
+    text-align: center;
+    height: 51vh;
+}
+
+#home::before {
+    content: "";
+    background: transparent url("img/home.png")no-repeat center ;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    opacity: 1;
+}
+
+#home h1 {
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#home p {
+    color: white;
+    font-weight: 400;
+    font-size: 1.875rem;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email{
+    width: 500px;
+    height: 35px;
+    color: white;
+    font: 1em sans-serif;
+    background: transparent;
+    line-height: 1.5rem;
+}
+/* Show1 Section */
+#show1 {
+    display: flex;
+    background: black;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+#show1 .box {
+    display: flex;
+    margin: 30px 60px;
+    color: wheat;
+}
+
+#show1 h2 {
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#show1 p {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-family: 'Bree Serif', serif;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+img{
+    height: 500px;
+    width: 700px;
+}
+/* Show2 Section */
+#show2 {
+    margin-top: 2px;
+    display: flex;
+    background: black;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#show2 .box {
+    display: flex;
+    margin: 30px 60px;
+    color: wheat;
+}
+
+#show2 h2 {
+    margin: 70px;
+    margin-right: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#show2 p {
+    margin-top: -50px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-family: 'Bree Serif', serif;
+}
+
+/* Show3 Section */
+#show3 {
+    margin-top: 2px;
+    display: flex;
+    background: black;
+    justify-content: center;
+    
+}
+
+#show3.box {
+    display: flex;
+    margin: 3px 6px;
+    color: wheat;
+}
+
+#show3 h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#show3 p {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-family: 'Bree Serif', serif;
+}
+
+/* Show4 Section */
+#show4 {
+    margin-top: 2px;
+    display: flex;
+    background: black;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+#show4.box {
+    display: flex;
+    margin: 3px 6px;
+    color: wheat;
+    
+}
+
+#show4 h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#show4 p {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-family: 'Bree Serif', serif;
+}
+
+/* FAQ Container  */
+.FAQ_container {
+    margin-top: 2px;
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.FAQ_container h1 {
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.Question {
+    display: grid;
+    padding: 20px 30px;
+    background: #312f2f;
+    color: #fff;
+    margin: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+    padding: 20px 30px;
+    background: #312f2f;
+    color: #fff;
+    margin: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    overflow: hidden;
+}
+
+.FAQ_container h2{
+color: #fff;
+font-size: 1.3rem;
+margin-top: 50px;
+margin-left: 400px;
+}
+.email__form__container{
+    margin-top: -30px;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+.email__input{
+    width: 400px;
+    height: 45px;
+    color: white;
+    background: transparent;
+    line-height: 1rem;
+    font-size: 1.1rem;
+
+}
+.btn-1{
+    display: inline-block;
+    background: #ef0808;
+    color: #fff;
+    margin-left: -300px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 200px;
+    height: 3.5rem;
+    font-size: 1.5rem;
+}
+
+/* Footer  */
+footer {
+    margin-top: -57px;
+    padding: 2rem 1rem;
+    color: rgba(255,255,255,0.7);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+a{
+    color: rgba(255,255,255,0.7);
+    margin: 10px;
+}
+
+.footer__row__1 h4 {
+    font-weight: 500;
+    margin: 40px;
+    margin-left: 170px;
+}
+
+.footer__row__2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.footer__row__3 {
+    width: fit-content;
+    margin-bottom: 10px;
+    margin-left: 170px;
+}
+
+.footer__row__4 p {
+font-size: 17px;
+margin-left: 170px;
+margin-bottom: 50px;
+}
+
+.column_1,.column_2,.column_3{
+    display: flex;
+    flex-direction: column;
+}
+
+.languagesSelect {
+    padding: 5px;
+    border-radius: 4px;
+    background: transparent;
+    color: white;
+    width: 150px;
+    font-size: 17px;
+}
